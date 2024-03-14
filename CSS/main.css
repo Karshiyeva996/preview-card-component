@@ -1,9 +1,123 @@
+@import url(/fonts.css);
+@import url(/fonts/Big_Shoulders_Display/static/BigShouldersDisplay-Black.ttf);
+@import url(/fonts/Lexend_Deca/static/LexendDeca-Black.ttf);
+
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 a {
+    list-style: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.components {
+    width: 1440px;
+    height: 800px;
+    background: #F2F2F2;
+}
+
+.components-card {
     
+    padding-top: 171px;
+    padding-bottom: 129px;
+    padding-left: 260px;
+    padding-right: 260px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    
+}
+
+.components-card__item-1 {
+    width: 450px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E28625;
+    padding-left: 48px;
+    padding-top: 48px;
+    
+
+}
+
+.components-card-icon {
+    width: 64px;
+    height: 40px;
+    flex-shrink: 0;
+    
+}
+
+.components-card__name {
+    color: #F2F2F2;
+
+    font-family: "Big Shoulders Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 35px;
+   
+}
+
+.components-card__desc {
+    color: #FFF;
+
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.75;
+    padding-top: 25px;
+} 
+.components-card__btn{
+    width: 146px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 25px;
+background: #F2F2F2;
+color: #E28625;
+
+font-family: "Lexend Deca";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+
+
+}
+
+
+
+.components-card__item-2 {
+    width: 450px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #006971;
+    padding-left: 48px;
+    padding-top: 48px;
+
+}
+
+.components-card__item-3 {
+    width: 450px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 0px 8px 8px 0px;
+    background: #004140;
+    padding-left: 48px;
+    padding-top: 48px;
+    row-gap: 20px;
+
 }
